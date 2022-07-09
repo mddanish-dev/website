@@ -1,0 +1,112 @@
+body,
+html {
+  /* Full height */
+  height: 100%;
+  /* The image used */
+  background: url("../images/bg-laptop.jpg");
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media only screen and (min-width: 481px) {
+  .greeting {
+    position: absolute;
+    left: 55%;
+    top: 30%;
+  }
+  .intro {
+    position: absolute;
+    left: 55%;
+    top: 35%;
+  }
+  .caption {
+    position: absolute;
+    left: 55%;
+    top: 40%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .greeting {
+    position: absolute;
+    left: 15%;
+    top: 10%;
+  }
+  .intro {
+    position: absolute;
+    left: 15%;
+    top: 15%;
+  }
+  .caption {
+    position: absolute;
+    left: 15%;
+    top: 20%;
+  }
+}
+
+.greeting span.greeting-text {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.intro span.intro-text {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.caption span.caption-text {
+  color: #fff;
+  font-size: 28px;
+  letter-spacing: 10px;
+}
+
+.btn {
+  border-radius: 50px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 12px 24px;
+  font-size: 12px;
+  cursor: pointer;
+  letter-spacing: 1.5px;
+}
+
+.mt-30{
+  margin-top: 30px;
+}
+
+.default {
+  border-color: white;
+  color: white;
+}
+
+.default:hover {
+  border-color: white;
+  background: transparent;
+  color: white;
+}
+
+.default:active {
+  outline: none;
+  border-color: white;
+  background: transparent;
+  color: white;
+}
+
+.default:focus {
+  outline: none;
+  border-color: white;
+  background: transparent;
+  color: white;
+}
+
+.btn:active:focus,
+.btn:focus {
+  outline: none;
+  outline-offset: -2px;
+}
