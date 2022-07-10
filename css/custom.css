@@ -10,7 +10,6 @@ html {
   background-size: cover;
   background-attachment: fixed;
 }
-
 @media only screen and (min-width: 481px) {
   .greeting {
     position: absolute;
@@ -30,6 +29,10 @@ html {
 }
 
 @media only screen and (max-width: 480px) {
+  body,
+  html {
+    background-position: unset;
+  }
   .greeting {
     position: absolute;
     left: 15%;
@@ -76,7 +79,7 @@ html {
   letter-spacing: 1.5px;
 }
 
-.mt-30{
+.mt-30 {
   margin-top: 30px;
 }
 
